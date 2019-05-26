@@ -1,0 +1,30 @@
+{
+  "name": "atay",
+  "version": "0.0.1",
+  "description": "Lightweight logging library with zero dependency for NodeJS and Browsers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muratersin/atay.git"
+  },
+  "keywords": [
+    "Log",
+    "Logger",
+    "Nodejs",
+    "Browser"
+  ],
+  "author": "Murat Ersin",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/muratersin/atay/issues"
+  },
+  "homepage": "https://github.com/muratersin/atay#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^5.16.0",
+    "mocha": "^6.1.4"
+  }
+}
