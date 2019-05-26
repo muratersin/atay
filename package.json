@@ -1,6 +1,6 @@
 {
   "name": "atay",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Lightweight logging library with zero dependency for NodeJS.",
   "main": "index.js",
   "scripts": {
@@ -13,8 +13,7 @@
   "keywords": [
     "Log",
     "Logger",
-    "Nodejs",
-    "Browser"
+    "Nodejs"
   ],
   "author": "Murat Ersin",
   "license": "Apache-2.0",
