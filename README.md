@@ -2,7 +2,12 @@
 
 Atay is a **Lightweight logging library** with zero dependencies for NodeJs.
 
+Installing:
+```bash
+    npm install atay
+```
 
+Usage:
 ```javascript
     const atay = require('atay');
     
@@ -26,10 +31,21 @@ Default configuration is shown below:
         debug: null,
         fatal: null,
       },
-    }
+    };
+
+    const logger = atay.createLogger(config);
 ```
 
 - **name(String):** Your application name.
 - **showDate(Boolean):** If is it true, you can see your logs with date.
 - **stopProcessAfterFatalError(Boolean):** If is it true, when you use 'fatal' level log, your process will be stopped immediately after writing log.
+- **streams:(Object):** If you want your logs keeping in a file, just set a path, paths can be different or same for every level.
+***Path must be absolute path and a directory.*** Example '/Users/your-user/project/tmp',
 
+You can use one of this levels, and this levels can't changes.
+
+1. info
+2. warn
+3. error
+4. debug
+5. fatal
