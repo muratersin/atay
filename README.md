@@ -16,7 +16,7 @@ Usage:
     logger.info('Hello Moon!');
 ```
 
-Firsly, Atay is not fully customizable and flexible logging librarry. My purpose of writing this librarry, avoid time waste when creating new microservice or server app. Many other logging libraries are had complex configuration objects especially when you want write logs to a file.
+Firstly, Atay is not fully customizable and flexible logging librarry. My purpose of writing this librarry, avoid time waste when creating new microservice or server app. Many other logging libraries are had complex configuration objects especially when you want write logs to a file.
 
 Default configuration is shown below:
 ```javascript
